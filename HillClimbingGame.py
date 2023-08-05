@@ -134,9 +134,6 @@ with mp_hands.Hands(
                     else:
                         pyautogui.keyUp('right')
 
-                    # if index_finger:
-                    #     pyautogui.moveTo(index_finger_tip_x, index_finger_tip_y)
-
         cv2.imshow('Hill Climbing Game', image)
 
         if cv2.waitKey(5) & 0xFF == ord('q'):
